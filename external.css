@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  color:black;
+}
+.shape {
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 320px;
+  height:160px;
+  background:#ff395d;
+  border-left:20px solid #92e256;
+  border-right:20px solid #92e256;
+  border-bottom: 20px solid #92e256;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+.shape:before {
+  content: '';
+  position:absolute;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,.3);
+
+}
